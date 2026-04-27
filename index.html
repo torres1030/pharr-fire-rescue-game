@@ -28,7 +28,9 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;
 
 /* ── TITLE ── */
 #s-title{align-items:center;justify-content:center;text-align:center;padding:16px;gap:12px;}
-.title-main{font-family:'Press Start 2P',monospace;font-size:clamp(16px,4vw,38px);
+.title-top{font-family:'Press Start 2P',monospace;font-size:clamp(7px,1.4vw,11px);
+  color:var(--gold);letter-spacing:.18em;margin-bottom:2px;}
+  .title-main{font-family:'Press Start 2P',monospace;font-size:clamp(16px,4vw,38px);
   color:var(--fire);text-shadow:0 0 20px var(--fire),0 4px 0 #800;
   letter-spacing:.04em;animation:titleGlow 2s ease-in-out infinite;}
 @keyframes titleGlow{0%,100%{text-shadow:0 0 20px var(--fire),0 4px 0 #800;}
@@ -298,8 +300,9 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;
 
 <!-- TITLE -->
 <div class="screen active" id="s-title">
+  <div class="title-top">PHARR FIRE DEPARTMENT</div>
   <div class="title-main">PHARR FIRE RESCUE</div>
-  <div class="title-sub">THE TRAINING GAME</div>
+  <div class="title-sub">SAVE THE CITY!</div>
   <div style="font-size:9px;color:rgba(255,255,255,.28);letter-spacing:.08em;">CITY OF PHARR · OFFICE OF STRATEGIC EXCELLENCE</div>
   <div class="chars-row">
     <div class="char-card" style="border-color:#FF333344">
